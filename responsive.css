@@ -1,0 +1,104 @@
+@media  (max-width: 520px){
+::-webkit-scrollbar{
+    display: none;
+}
+    header .home{
+    padding: 10px;
+    }
+    header nav ul  {
+        display: flex;
+       flex-wrap: wrap;
+       position: fixed;
+    }
+    header nav ul li{
+    margin:  12px;
+    
+  
+    }
+    main{
+        max-width: 345px;
+    }
+    main .container{
+        flex-direction: column;
+    }
+
+    main .formulario{
+        margin-left: 1px;
+    }
+
+    main .formulario .forms #icpf, #iemail, #inome{
+        width: 100%;
+    }
+
+    main .formulario #ibutton{
+    width: 100%;
+    }
+              
+    hr:after {
+        font-size: 14px;
+    }
+   main .produtos{
+    flex-direction: column;
+    
+    
+   }
+   main .produtos .box{
+    width: 155px;
+    height: 129px;
+   }
+
+   main .informacao{
+    flex-direction: column;
+    line-height: 7px;
+    margin-top: 40px;
+   }
+
+   main .informacao .txt{
+    max-height: 100px;
+   }
+
+   main .txt :nth-last-child(1){
+    width: 150px;
+   }
+
+   main .flexx{
+    display: flex;
+    gap: 40px;
+    
+   }
+
+   main .txt :nth-of-type(2){
+  display: none;
+}
+
+.t1{
+margin: 13.6px 0;
+}
+
+.formFinal{
+    flex-direction: column;
+    
+}
+#inomea, #iemail2{
+   width: 440px;
+}
+
+
+.hr2:after{
+    font-size: 13.8px;
+}
+.formFinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    gap: 40px;
+    color: var(--color-subtitulo);
+}
+ #inomea, #iemail2{
+    width: 350px;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+}
